@@ -2,9 +2,12 @@ Package: deltaMethod
 Title: An Extension of car's Delta Method Functionality
 Version: 0.0.0.9000
 Authors@R: person("Randall", "Pruim", email = "rpruim@calvin.edu", role = c("aut", "cre"))
-Description: This package adds some additional functionality to the deltaMethod() function
-in the car package.
-Imports: car
-Depends: R (>= 3.2.3)
+Description: This package adds some additional functionality to the
+    deltaMethod() function in the car package.
+Depends:
+    R (>= 3.2.3), car
 License: GPL >= 2
 LazyData: true
+URL: https://github.com/rpruim/deltaMethod
+BugReports: https://github.com/rpruim/deltaMethod/issues
+RoxygenNote: 5.0.1
