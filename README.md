@@ -1,0 +1,2 @@
+# deltaMethod
+deltaMethod R package
