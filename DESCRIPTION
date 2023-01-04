@@ -1,6 +1,6 @@
 Package: deltaMethod
 Title: An Extension of car's Delta Method Functionality
-Version: 0.0.0.9000
+Version: 0.2.0
 Authors@R: person("Randall", "Pruim", email = "rpruim@calvin.edu", role = c("aut", "cre"))
 Description: This package adds some additional functionality to the
     deltaMethod() function in the car package.
