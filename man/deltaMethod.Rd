@@ -5,9 +5,17 @@
 \alias{deltaMethod.data.frame}
 \title{Delta method on data frames}
 \usage{
-\method{deltaMethod}{data.frame}(object, g, uncertainties,
-  estimates = measurements, func = g, constants = c(),
-  measurements = NULL, vcov., ...)
+\method{deltaMethod}{data.frame}(
+  object,
+  g,
+  uncertainties,
+  estimates = measurements,
+  func = g,
+  constants = c(),
+  measurements = NULL,
+  vcov.,
+  ...
+)
 }
 \arguments{
 \item{object}{a data frame containing measured quantities}
@@ -82,4 +90,3 @@ if (require(mosaicData)) {
 \seealso{
 \code{deltaMethod} in the \pkg{car} package.
 }
-
